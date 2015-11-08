@@ -1,5 +1,7 @@
 var path = require('path');
 
+console.log(__dirname);
+
 module.exports = {
     entry: './src/init.js',
     resolve: {
